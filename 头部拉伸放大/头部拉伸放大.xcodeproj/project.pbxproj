@@ -16,6 +16,7 @@
 		4DF3159F1C72F4DD005F11D3 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3159E1C72F4DD005F11D3 /* ______Tests.m */; };
 		4DF315AA1C72F4DD005F11D3 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF315A91C72F4DD005F11D3 /* ______UITests.m */; };
 		4DF315B81C72F89B005F11D3 /* Acme_Monogram_Colour.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF315B71C72F89B005F11D3 /* Acme_Monogram_Colour.png */; };
+		F529C6DE1C79FA79009F671E /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F529C6DD1C79FA79009F671E /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4DF315A91C72F4DD005F11D3 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		4DF315AB1C72F4DD005F11D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DF315B71C72F89B005F11D3 /* Acme_Monogram_Colour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Acme_Monogram_Colour.png; sourceTree = "<group>"; };
+		F529C6DC1C79FA79009F671E /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		F529C6DD1C79FA79009F671E /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 		4DF315831C72F4DD005F11D3 /* 头部拉伸放大 */ = {
 			isa = PBXGroup;
 			children = (
+				F529C6DC1C79FA79009F671E /* UIImage+ImageEffects.h */,
+				F529C6DD1C79FA79009F671E /* UIImage+ImageEffects.m */,
 				4DF315871C72F4DD005F11D3 /* AppDelegate.h */,
 				4DF315881C72F4DD005F11D3 /* AppDelegate.m */,
 				4DF3158A1C72F4DD005F11D3 /* ViewController.h */,
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F529C6DE1C79FA79009F671E /* UIImage+ImageEffects.m in Sources */,
 				4DF3158C1C72F4DD005F11D3 /* ViewController.m in Sources */,
 				4DF315891C72F4DD005F11D3 /* AppDelegate.m in Sources */,
 				4DF315861C72F4DD005F11D3 /* main.m in Sources */,

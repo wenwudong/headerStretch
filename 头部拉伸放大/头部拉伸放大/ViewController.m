@@ -3,6 +3,7 @@
  然后根据tableView的滚动偏移量的y值，重新设定imageView的y值和高度，
  */
 
+#import "UIImage+ImageEffects.h"
 #import "ViewController.h"
 #define imageHeight 200
 
@@ -87,6 +88,8 @@
     CGFloat offsetY = scrollView.contentOffset.y;
 
     if (offsetY < 0) {
+        self.imageView.image = [[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Acme_Monogram_Colour.png" ofType:nil]] applyBlurWithRadius:(-offsetY / self.tableView.bounds.size.width) * 20 tintColor:nil saturationDeltaFactor:1.8 maskImage:nil];
+
         CGRect rect = self.imageView.frame;
         rect.origin.y = offsetY;
         rect.size.height = imageHeight - offsetY;
